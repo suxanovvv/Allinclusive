@@ -1,0 +1,70 @@
+html{
+    background: url(../img/4.png);
+    background-size: 100%
+}
+
+.title{
+    font-size: 300%;
+    font-family: 'Times New Roman', Times, serif;
+    color: orange;
+    background-color: rgb(94, 94, 252);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.text {
+    font-size: 270%;
+    text-decoration: underline;
+    font-family: monospace;
+    margin-left: 10px;
+    margin-top: 550px;
+    background-color: orange;
+    padding-left: 30px;
+}
+
+.Tablee {
+    font-size: 200%;
+    font-family: monospace;
+    background-color: rgb(94, 94, 252) ;
+    color: orange;
+    margin-left: 1080px;
+    margin-top: 0px;
+}
+
+.Watch {
+    margin-top: -620px;
+    margin-left: 1100px;
+    color: black;
+    text-decoration: underline; 
+}
+
+.video {
+    margin-top: 0px;
+    margin-left: 60px;
+}
+
+.Premier {
+   color: black;
+   text-decoration: underline; 
+   margin-top: -220px;
+   margin-left: 70px;
+   font-size: 150%;
+}
+
+@media (max-width: 414px) {
+.title{
+    background-color: black;
+    display: flex;
+}
+.video {
+    text-align: center;
+}
+html {
+    background: url(../img/6.webp);
+}
+
+.text {
+    text-align: center;
+}
+}
